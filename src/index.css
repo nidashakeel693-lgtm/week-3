@@ -57,15 +57,18 @@ body{
 }
 .container{
   width: 90%;
+  height: 100%;
   margin: auto;
-  border: 1px solid black;
-  padding: 20px;
+ border: 1px solid black;
+  
   color: black;
 }
 .navbar{
   text-align: center;
   justify-content: space-between;
   display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .navbar nav a{
   margin-left: 10px;
@@ -75,8 +78,9 @@ body{
 
 .title{
   text-align: center;
-  margin: 30px 0;
+  margin: 80px 0;
   color: black;
+  font-weight: 5;
 }
 .main-section{
   display: grid;
@@ -84,10 +88,15 @@ body{
   border: 1px solid black;
 }
 .box{
-  padding: 10px;
+ text-align: center;
   border-right: 2px solid black;
   border-bottom: 1px solid black;
  
+}
+.box5{
+  text-align: left;
+  border-right: 2px solid black;
+  padding: 10px;
 }
 .boxs{
   padding: 10px;
@@ -95,17 +104,30 @@ body{
   border-bottom: 1px solid black;
   
 }
+.box{
+border: 1px solid black;
 
+}
+.box6{
+border: 1px solid black;
+}
+.box7{
+border: 1px solid black;
+}
+
+.box8{
+border: 1px solid black;
+}
+.box9{
+border: 1px solid black;
+border-bottom: 1px solid black;
+}
 
 .box hr{
   margin: 15px 0;
   border: 1px solid black;
 }
-.box ul li{
-  list-style: none;
-  border-bottom: 2px solid black;
-  padding: 8px;
-}
+
 .reviews{
   margin-top: 30px;
 
@@ -116,10 +138,11 @@ body{
   margin-top: 15px;
 }
 .card{
-  border: 2px solid black;
+  border: 1px solid black;
   width: 25%;
-  border-radius: 15px;
+  border-radius: 25px;
  margin-left: 50px;
+ padding: 5px;
  
 }
 
